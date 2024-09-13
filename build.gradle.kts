@@ -18,6 +18,8 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 // https://mvnrepository.com/artifact/com.github.kotlin-telegram-bot.kotlin-telegram-bot/telegram
     implementation("com.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.0.4")
+    implementation("com.squareup.okhttp3:okhttp:4.9.1")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
 }
 
 
